@@ -30,7 +30,8 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
 for quizNum in range(1, 21):
     quizFile = open(f'C:\\Users\\guido\\MyPythonScripts\\menAtWork\\capitalquiz{quizNum}.txt', 'w')
     answerKeyFile = open(f'C:\\Users\\guido\\MyPythonScripts\\menAtWork\\capitalquiz_answers{quizNum}.txt', 'w')
-
+    
+    # Write the quiz title and a little form for the student.
     quizFile.write('Name:\n\nDate:\n\nPeriod:\n\n')
     quizFile.write(('' * 20) + f'State Capitals Quiz {quizNum}\n\n')
 
