@@ -1,5 +1,5 @@
 # Random-Quiz-Generator
-Simple tool for teachers wanting to have a different ordered quiz for each of his alumns.
+Simple tool for teachers wanting to have a different ordered quiz for each of his students.
 
 ## This scrit creates:
 *  20 random quiz (see capitalquiz1.txt)
